@@ -8,7 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
-header { /* All changes made in HTML now reflected in CSS as well including header */ 
+/* All changes made in HTML now reflected in CSS */ 
+
+header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav { /* As well as nav*/
+header nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,7 +52,9 @@ p {
     font-size: 16px;
 }
 
-.developer_meeting {  /*the photo now named developer meeting*/
+/*the photo now named developer meeting*/
+
+.developer_meeting {  
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -86,7 +90,10 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,   /* Several classes were performing the same functions therefore they can be consolidated into smaller lines of code by separating them with commas.*/
+
+/* Several classes were performing the same functions therefore they can be consolidated into smaller lines of code by separating them with commas.*/
+
+.benefit-lead,   
 .benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
@@ -133,7 +140,9 @@ p {
     font-size: 36px;
 }
 
-footer { /* Now a footer, and at the end of the CSS code*/
+/* Now a footer, and at the end of the CSS code*/
+
+footer { 
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
